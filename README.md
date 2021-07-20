@@ -39,23 +39,23 @@
    ##### 1.2 디렉토리 구조 설정 
     
     # 데이터셋 디렉토리 구조 
-products_classification
-    ├── data
-        ├── convert
-        |   ├── train
-        |   ├── val
+    products_classification
+        ├── data
+            ├── convert
+            |   ├── train
+            |   ├── val
 
-        ├── dataset  
-        |   ├── train
-                ├── class1
-                ├── class2
-                      .
-                      .
-        |   ├── val
-                ├── class1
-                ├── class2
-                      .
-                      .
+            ├── dataset  
+            |   ├── train
+                    ├── class1
+                    ├── class2
+                          .
+                          .
+            |   ├── val
+                    ├── class1
+                    ├── class2
+                          .
+                          .
    
     
    ##### 1.3 디렉토리명 변환
