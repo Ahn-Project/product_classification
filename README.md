@@ -47,15 +47,7 @@
 
             ├── dataset  
             |   ├── train
-                    ├── class1
-                    ├── class2
-                          .
-                          .
             |   ├── val
-                    ├── class1
-                    ├── class2
-                          .
-                          .
    
     
    ##### 1.3 디렉토리명 변환
