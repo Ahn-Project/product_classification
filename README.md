@@ -53,9 +53,9 @@
    ##### 1.3 디렉토리명 변환
    1.3.1 다운받은 상품 이미지 데이터의 변환하고자 하는 폴더를 다음 경로로 이동
    
-     - "./상품 이미지 데이터/Training/" 경로 하위 폴더 -> "./products_classification/data/convert/train/" 경로로 이동
-     
-     - "./상품 이미지 데이터/Validation/" 경로 하위 폴더 -> "./products_classification/data/convert/val/" 경로로 이동
+   - "./상품 이미지 데이터/Training/" 경로 하위 폴더 -> "./products_classification/data/convert/train/" 경로로 이동
+
+   - "./상품 이미지 데이터/Validation/" 경로 하위 폴더 -> "./products_classification/data/convert/val/" 경로로 이동
    
    
    1.3.2 디렉토리명 변환 (아래 명령어 실행)
