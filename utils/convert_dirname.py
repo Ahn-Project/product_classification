@@ -1,5 +1,6 @@
 import os
 import json
+import shutil
 
 # load category name
 with open('./category_name.json', 'r') as f:
@@ -29,7 +30,10 @@ for phase in os.listdir(dataset_path):
             product_renamed = os.path.join(category_path, product_name_new)
             try:
                 os.rename(product_path, product_renamed)    # 상품명 변환
+                shutil.move(product_renamed, phase_path)
             except FileExistsError:
                 pass
 
+        category_abspath = os.path.abspath(os.path.join(product_renamed, '..'))
+        os.rmdir(category_abspath)
 
