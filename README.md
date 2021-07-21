@@ -38,33 +38,40 @@
    
    ##### 1.2 디렉토리 구조 설정 
     
-    # 데이터셋 디렉토리 구조    
-    data
-    ├── convert
-    |   ├── train
-    |   ├── val
-    
-    ├── dataset  
-    |   ├── train
-            ├── class1
-            ├── class2
-                  .
-                  .
-    |   ├── val
-            ├── class1
-            ├── class2
-                  .
-                  .
+    # 데이터셋 디렉토리 구조 
+    products_classification
+        ├── data
+            ├── convert
+            |   ├── train
+            |   ├── val
+
+            ├── dataset  
+            |   ├── train
+            |   ├── val
    
     
    ##### 1.3 디렉토리명 변환
-   - "./data/convert/" 경로에 있는 'train' / 'val' 폴더에 변환하고자 하는 상품 데이터 폴더를 이동 
-   - 아래 명령어 실행
+   1.3.1 다운받은 상품 이미지 데이터의 변환하고자 하는 폴더를 다음 경로로 이동
    
-    # ./utils/ 이동
+   - "./상품 이미지 데이터/Training/" 경로 하위 폴더 -> "./products_classification/data/convert/train/" 경로로 이동
+
+   - "./상품 이미지 데이터/Validation/" 경로 하위 폴더 -> "./products_classification/data/convert/val/" 경로로 이동
+   
+   
+   1.3.2 디렉토리명 변환 (아래 명령어 실행)
+    
+    # cd utils
     
     python convert_dirname.py
 
+
+   1.3.3 데이터 로드를 위해, 변환된 폴더를 다음 경로로 이동 (아래 명령어 실행)
+    
+    # cd utils
+    
+    python move_dir.py  
+    
+ 
 
 
 
