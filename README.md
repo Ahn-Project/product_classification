@@ -37,6 +37,7 @@
    ##### 1.1 데이터 다운로드 ([link](https://aihub.or.kr/aidata/34145/download))
    
    ##### 1.2 디렉토리 구조 설정 
+   - "./data/"에 ["data.zip"](https://github.com/Ahn-Project/product_classification/tree/master/data) 압축 풀기
     
     # 데이터셋 디렉토리 구조 
     products_classification
